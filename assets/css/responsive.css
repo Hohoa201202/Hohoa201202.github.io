@@ -1,0 +1,128 @@
+
+/* Responsive The Band */
+
+/* PC */
+@media (min-width: 1024px){
+    .header-menu {
+        display: none;
+    }
+}
+
+/* Table & Mobile */
+@media (max-width: 1024px){
+    .btn {
+        padding: 16px 14px;
+    }
+
+    .contact-form .form-control{
+        padding: 14px;
+    }
+
+    #footer .socials-list a{
+        font-size: 35px;
+    }
+}
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px){
+    .table{
+        /* css */
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+
+    .header-search {
+        display: none;
+    }
+
+    .header-menu{
+        float: right;
+        padding: 0 25px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .header-menu:hover i,
+    .header-menu:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+    
+    .header-menu .ti-menu{
+        color: #fff;
+        font-size: 20px;
+        line-height: 3.5rem;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: inherit;
+        padding-left: 40px;
+        background-color: #ebe7e7;
+        color: #000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #nav .subnav a{
+        color: #000;
+    }
+
+    #content .content-section {
+        width: 100%;
+    }
+
+    .member-item{
+        width: 100%;
+    }
+
+    #content .content-section .member-img{
+        margin-bottom: 25px;
+        width: 65%;
+    }
+
+    .member-item-row-1{
+        padding-bottom: 0;
+    }
+    
+    .member-item-row-2{
+        padding: 0;
+    }
+
+    .place-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .contact-item{
+        width: 100%;
+    }
+
+    .form-full{
+        width: 100%;
+    }
+
+    .form-full.col.col-2 {
+        margin-top: 8px;
+    }
+
+    .contact-content .contact-info{
+        line-height: 1.9;
+        margin-bottom: 10px;
+    }
+}
