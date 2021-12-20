@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXYRY Official</title>
+    <!-- <link rel="shortcut icon" href="./assets/img/logo/screenshot_1637992120.png" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/news.css">
+    <link rel="stylesheet" href="./assets/css/responsive.news.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+    
+            <!-- Top header -->
+            <div class="header-nav row grid wide">
+                <ul class="header-nav__item">
+                    <li class="header-nav__info">
+                        <i class="header__nav-icon fas fa-phone-alt"></i>
+                        Hotline:
+                        <span class="header-nav__info-address">
+                            0888.777.989 - 0985.789.789
+                        </span>
+                    </li>
+                    <li class="header-nav__info header-nav__info--mobile">
+                        <i class="header__nav-icon fas fa-phone-alt"></i>
+                        Liên hệ QC:
+                        <span class="header-nav__info-address">
+                            0335.868.686
+                        </span>
+                    </li>
+                </ul>
+    
+                <ul class="header-nav__item header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-item-link">
+                            <i class="header__nav-icon fas fa-shopping-cart"></i>
+                            Giỏ Hàng
+                        </a>
+                    </li>
+                    <li class="header__nav-item header__nav-language">
+                        <a href="#" class="header__nav-item-link">
+                            <i class="header__nav-icon fas fa-globe-americas"></i>
+                            Tiếng Việt
+                            <i class="header__nav-icon fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="header__nav-language-menu">
+                            <li class="header__nav-language-item"><a href="#">Tiếng Việt</a></li>
+                            <li class="header__nav-language-item"><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-item-link">
+                            <i class="header__nav-icon fas fa-question-circle"></i>
+                            Trợ Giúp
+                        </a>
+                    </li>
+                    <li class="header__nav-item header__nav-account">
+                        <a href="#" class="header__nav-item-link">
+                            <i class="header__nav-icon fas fa-user-circle"></i>
+                            Tài Khoản
+                        </a>
+                        <ul class="header__nav-account-menu">
+                            <li class="header__nav-account-item"><a href="#">Tài khoản của tôi</a></li>
+                            <li class="header__nav-account-item"><a href="#">Địa chỉ của tôi</a></li>
+                            <li class="header__nav-account-item"><a href="#">Tra cứu đơn hàng</a></li>
+                            <li class="header__nav-account-item"><a href="#">Đăng nhập</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    
+            <!--  -->
+            <div class="header-with-search">
+                <div class="grid wide">
+                    <div class="header-with-search__wrap">
+    
+                        <!-- Mobile menu button -->
+                        <div class="header-mobile-menu display-on-mobile-and-tablet">
+                            <i class="header-mobile-menu__icon fas fa-bars"></i>
+                        </div>
+                        <!-- End: Mobile menu Button -->
+    
+                        <!-- Logo Mobile -->
+                        <a href="index.html" class="header-logo__link">
+                            <!-- <div class="header-logo__img"></div> -->
+                            <i class="header-logo-icon far fa-gem"></i>
+                            <h1 class="header-logo-text">LUXURY</h1>
+                        </a>
+    
+                        <!-- Header-search -->
+                        <div class="header-search hide-on-mobile-and-tablet">
+                            <input type="text" placeholder="Nhập tên sản phẩm..." class="header-search__input">
+                            <i class="header-search__icon fas fa-search"></i>
+                        </div>
+    
+                        <!-- Menu Website -->
+                        <ul class="header-menu hide-on-mobile-and-tablet"> 
+                            <!-- Menu Home -->
+                            <li class="header-menu__item">
+                                <a href="index.html" class="header-menu__item-link">
+                                    <i class="header-menu__item-icon fas fa-home"></i>
+                                    <p class="header-menu__item-name">Trang chủ</p>
+                                </a>
+                            </li>
+    
+                            <!-- Menu About -->
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__item-link">
+                                    <i class="header-menu__item-icon fas fa-store"></i>
+                                    <p class="header-menu__item-name">Giới thiệu</p>
+                                </a>
+                            </li>
+                            
+                            <!-- Menu Product -->
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__item-link">
+                                    <i class="header-menu__item-icon fas fa-gem"></i>
+                                    <p class="header-menu__item-name">Trang sức</p>
+                                </a>
+    
+                                <div class="header-sub-menu">
+                                    <div class="grid">
+                                        <div class="row">
+                                            <div class="col l-3 m-3">
+                                                <h3 class="header-sub-menu__title">Chủng Loại</h3>
+                                                <div class="row">
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Nhẫn
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Bông Tai
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Lắc & Vòng Tay
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dây chuyền
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col l-3 m-3">
+                                                <h3 class="header-sub-menu__title">Dòng Hàng</h3>
+                                                <div class="row">
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Đính Kim Cương
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Đính Đá Quý
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Đính Ngọc Trai
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Không Đính Đá
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col l-3 m-3">
+                                                <h3 class="header-sub-menu__title">Chủng loại</h3>
+                                                <div class="row">
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Nhẫn
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Bông Tai
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Lắc & Vòng Tay
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dây chuyền
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col l-3 m-3">
+                                                <h3 class="header-sub-menu__title">Mức giá</h3>
+                                                <div class="row">
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dưới 10 triệu
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dưới 20 triệu
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dưới 30 triệu
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dưới 50 triệu
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dưới 80 triệu
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-12 m-12">
+                                                        <div class="header-sub-menu__item">
+                                                            <a href="#" class="header-sub-menu__link">
+                                                                <i class="header-sub-menu__icon fas fa-angle-double-right"></i>
+                                                                Dưới 100 triệu
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <!-- Menu News-->
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__item-link">
+                                     <i class="header-menu__item-icon fas fa-blog"></i>
+                                    <p class="header-menu__item-name">Blog</p>
+                                 </a>
+    
+                                <div class="header-sub-menu header-sub-menu--m-size">
+                                    <div class="grid">
+                                        <div class="row">
+                                            <div class="col l-12 m-12">
+                                                <h3 class="header-sub-menu__title">Loại sản phẩm</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <!-- Menu Liên hệ -->
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__item-link">
+                                    <i class="header-menu__item-icon fas fa-gift"></i>
+                                    <p class="header-menu__item-name">Khuyến Mãi</p>
+                                </a>
+                            </li>
+                        </ul>
+    
+                        <!-- Button icon search in mobile -->
+                        <div class="header-mobile-search display-on-mobile-and-tablet">
+                            <i class="header-mobile-search__icon fas fa-search"></i>
+                        </div>
+    
+                        <!-- Mobile search input -->
+                        <div class="header-mobile-search-box__wrap">
+                            <input type="text" placeholder="Nhập tên sản phẩm..." class="header-mobile-search-box__input">
+                            <button class="header-mobile-search-box__btn">
+                                <i class="header-mobile-search-box__icon fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Mobile and Tablet sub menu -->
+            <label class="header-mobile-nav__overlay"></label>
+            <nav class="header-mobile-nav">
+                <div class="header-mobile-nav__heading">
+                    <a href="index.html" class="header-logo__link">
+                        <i class="header-logo-icon far fa-gem"></i>
+                        <h1 class="header-logo-text">LUXURY</h1>
+                    </a>
+                    <i class="header-mobile-nav__close fas fa-times"></i>
+                </div>
+                
+                <ul class="header-mobile-nav__list">
+                    <!-- Mobile -->
+                    <li class="header-mobile-nav__item">
+                        <label class="header-mobile-nav__item-select">
+                            <i class="header-mobile-nav__icon-open fas fa-chevron-right"></i>
+                            Trang Sức
+                        </label>
+                        
+                        <ul class="header-mobile-sub-nav__list" style="--num-row: 4;">
+                            <li class="header-mobile-sub-nav__item">
+                                <a href="#" class="header-mobile-sub-nav__item-link">Nhẫn</a>
+                            </li>
+                            <li class="header-mobile-sub-nav__item">
+                                <a href="#" class="header-mobile-sub-nav__item-link">Bông Tai</a>
+                            </li>
+                            <li class="header-mobile-sub-nav__item">
+                                <a href="#" class="header-mobile-sub-nav__item-link">Lắc & Vòng Tay</a>
+                            </li>
+                            <li class="header-mobile-sub-nav__item">
+                                <a href="#" class="header-mobile-sub-nav__item-link">Dây Chuyền</a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="header-mobile-nav__item pd-none" style="--num-row: 2;">
+                        <a href="#" class="header-mobile-nav__item-link">Giới thiệu</a>
+                    </li>
+                    <li class="header-mobile-nav__item pd-none">
+                        <a href="#" class="header-mobile-nav__item-link">Blog & Tin Tức</a>
+                    </li>
+                    <li class="header-mobile-nav__item pd-none">
+                        <a href="#" class="header-mobile-nav__item-link">Đăng xuất</a>
+                    </li>
+                    <a href="#" class="header-mobile-nav__item-link "> <span>Hotline: 0888.777.989 (Miễn Phí)</span> </a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="container__bre">
+                    <a href="index.html" class="ty-bread"> Trang chủ </a>
+                    <span class="slash">/</span>
+                    <span class="current"> Khuyến mãi </span>
+                </div>
+                <div class="container__banner l-12 m-12 c-0">
+                    <img class="container__banner-img" src="./assets/img/banner/banner10.jpg" alt="Banner">
+                </div>
+                <div class="container__banner">
+                    <img class="container__banner-img l-0 m-0" src="./assets/img/banner/banner1_mobile.jpg" alt="Banner">
+                </div>
+                <div class="row">
+                    <div class="span16">
+                        <div class="content">
+                            <div class=" row uudai-docquyen">
+                                <h2>
+                                    <a href="">ƯU ĐÃI ĐÃI ĐỘC QUYỀN ONLINE THÁNG 12</a>
+                                </h2>
+                                <p class="link">
+                                    <span class="span3">
+                                        <a href="" class="a1">TRANG SỨC VÀNG ƯU ĐÃI ĐẾN 20%</a>
+                                    </span>
+                                    <span class="span2">
+                                        <a href="">TRANG SỨC BẠC ƯU ĐÃI ĐẾN 30%</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="outer">
+                               <div class="row" >
+                                    <div class="col l-2 m-3 c-5 c-o-1 l-o-2 m-o-0">
+                                        <div class="item2">
+                                            <div class="item3">
+                                                <span class="img">
+                                                    <img  class="img1" src="./assets/img/banner/img1.png">
+                                                </span>
+                                                <span class="title">Nhẫn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2 m-3 c-5 ">
+                                         <div class="item2">
+                                            <div class="item3">
+                                                <span class="img">
+                                                    <img  class="img1" src="./assets/img/banner/img2.png">
+                                                </span>
+                                                <span class="title">Bông tai</span>
+                                            </div>
+                                         </div>
+                                        </div>  
+                                    <div class="col l-2 m-3 c-5 l-o-0 m-o-0 c-o-1 ">
+                                        <div class="item2">
+                                           <div class="item3">
+                                               <span class="img">
+                                                   <img  class="img1" src="./assets/img/banner/img3.png">
+                                               </span>
+                                               <span class="title">Lắc & Vòng</span>
+                                           </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col l-2 m-3 c-5 ">
+                                        <div class="item2">
+                                           <div class="item3">
+                                               <span class="img">
+                                                   <img  class="img1" src="./assets/img/banner/img4.png">
+                                               </span>
+                                               <span class="title">Dây Chuyền</span>
+                                           </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="view">
+                            <a href="">Xem tất cả</a>
+                        </div>
+                        <div class="container__banner c-0 m-12 l-12">
+                            <img class="container__banner-img" src="./assets/img/banner/img9.jpg" alt="Banner">
+                        </div>
+                        <div class="container__banner m-0 l-0">
+                            <img class="container__banner-img" src="./assets/img/banner/banner2_mobile.jpg" alt="Banner">
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="ty-content">
+                        <div class="row group-title">
+                            <h2 class="col l-12 c-13 m-12"> Ưu đãi từ nhãn hàng</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-5 l-o-1 m-6">
+                            <a href="#" class="baner-link">
+                            <img src="./assets/img/banner/img10.jpg" alt="" class="img10">
+                            <span class="ty-center">Ưu đãi đến 15%</span>
+                            </a>
+                        </div>
+                        <div class="col l-5 m-6">
+                            <a href="#" class="baner-link">
+                            <img src="./assets/img/banner/img11.jpg" alt="" class="img10">
+                            <span class="ty-center">Ưu đãi đến 30%</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="ty-wisi">
+                    <div class=" row content-title">
+                        <h2>Ưu đãi hệ thống lux toàn quốc</h2>
+                    </div>
+                </div>
+                <p class="content-p">Xem ngay sản phẩm & Ưu đãi theo khu vực của bạn</p>
+                <div class="areas-outer">
+                    <div class="row">
+                        <div class="col l-2 m-4 c-5 c-o-1 l-o-0 m-o-0">
+                            <div class="areas-item">
+                                <a href="#">
+                                    Hệ thống LUX
+                                    <br>
+                                     Hồ Chí Minh
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-5">
+                            <div class="areas-item">
+                                <a href="#">
+                                    Hệ thống LUX
+                                    <br>
+                                     Miền Bắc
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-5 c-o-1 l-o-0 m-o-0 ">
+                            <div class="areas-item">
+                                <a href="#">
+                                    Hệ thống LUX
+                                    <br>
+                                     Miền Trung
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-5 ">
+                            <div class="areas-item">
+                                <a href="#">
+                                    Hệ thống LUX
+                                    <br>
+                                     Tây Nguyên
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-5 c-o-1 l-o-0 m-o-0 ">
+                            <div class="areas-item">
+                                <a href="#">
+                                    Hệ thống LUX
+                                    <br>
+                                     Đông Nam Bộ
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-5 ">
+                            <div class="areas-item">
+                                <a href="#">
+                                    Hệ thống LUX
+                                    <br>
+                                     Miền Tây
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Banner -->
+                <div class="row">
+                    <div class="container__banner">
+                        <div class="ty-item-content">
+                            <div class="row group-title">
+                                <h2 class="col l-12 c-13 m-12">Ưu đãi khác từ luxury online</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-4 m-4 c-0">
+                                <a href="#" class="banner__link">
+                                    <img src="./assets/img/banner/img12.png" alt="Banner 1" class="banner__img">
+                                </a>
+                            </div>
+                            <div class="col l-4 m-4">
+                                <a href="#" class="banner__link">
+                                    <img src="./assets/img/banner/img13.png" alt="Banner 2" class="banner__img">
+                                </a>
+                            </div>
+                            <div class="col l-4 m-4 c-0">
+                                <a href="#" class="banner__link">
+                                    <img src="./assets/img/banner/img14.jpg" alt="Banner 2" class="banner__img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ty-logo">
+                    <div class="row ty-logo1">
+                       <div class="col logo">
+                           <a href="#" class="a1">
+                               <img src="https://cdn.pnj.io/images/image-update/2021/tab-sale-v2/disney-pnj_2.svg" alt="" class="img15">
+                           </a>
+                       </div>
+                       <div class="col logo">
+                        <a href="#" class="a1">
+                            <img src="https://cdn.pnj.io/images/image-update/2021/tab-sale-v2/pnj-watch_1.svg" alt="" class="img15">
+                        </a>
+                    </div>
+                    <div class="col logo">
+                        <a href="#" class="a1">
+                            <img src="https://cdn.pnj.io/images/image-update/2021/tab-sale-v2/style-logo_1.svg" alt="" class="img15">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <!-- Footer Policy -->
+                    <div class="col l-4 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1">
+                        <div class="footer__heading">
+                            <i class="footer__heading-icon far fa-question-circle"></i>
+                            Chính sách
+                        </div>
+
+                        <ul class="footer-policy__list">
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Chính sách vận chuyển</a>
+                            </li>
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Chính sách đổi trả hàng</a>
+                            </li>
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Chính sách bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer suport -->
+                    <div class="col l-4 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1">
+                        <div class="footer__heading">
+                            <i class="footer__heading-icon far fa-question-circle"></i>
+                            Hỗ Trợ Mua Hàng
+                        </div>
+
+                        <ul class="footer-policy__list">
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Hướng dẫn thanh toán</a>
+                            </li>
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Hướng dẫn mua hàng Online</a>
+                            </li>
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Dịch vụ Ship COD Toàn quốc</a>
+                            </li>
+                            <li class="footer-policy__item">
+                                <a href="#" class="footer-policy__link">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer Subscribe -->
+                    <div class="col l-4 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1">
+                        <div class="footer-bottom-1">
+                            <div class="footer__heading">
+                                <i class="footer__heading-icon far fa-envelope"></i>
+                                Đăng ký nhận bảng tin
+                            </div>
+    
+                            <div class="footer-mail">
+                                <form action="">
+                                    <input type="text" required placeholder="Nhập email của bạn..." name="" id="" class="footer-mail__input">
+                                    <button class="footer-mail__btn">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="footer-bottom-2">
+                            <div class="footer-power"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-text">©2021. Bản quyền thuộc về Công ty LUXURY</div>
+            
+            <ul class="footer-nav-mobile__list">
+                <li class="footer-nav-mobile__item">
+                    <a href="index.html" class="footer-nav-mobile__link">
+                        <i class="footer-nav-mobile__icon fas fa-home"></i>
+                        <span class="footer-nav-mobile__title">Trang chủ</span>
+                    </a>
+                </li>
+                <li class="footer-nav-mobile__item">
+                    <a href="#" class="footer-nav-mobile__link">
+                        <i class="footer-nav-mobile__icon fas fa-shopping-cart"></i>
+                        <span class="footer-nav-mobile__title">Giỏ hàng</span>
+                        <span class="footer-nav-mobile__number">0</span>
+                    </a>
+                </li>
+                <li class="footer-nav-mobile__item">
+                    <a href="#" class="footer-nav-mobile__link">
+                        <i class="footer-nav-mobile__icon fas fa-bell"></i>
+                        <span class="footer-nav-mobile__title">Thông báo</span>
+                        <span class="footer-nav-mobile__number">0</span>
+                    </a>
+                </li>
+                <li class="footer-nav-mobile__item">
+                    <a href="#" class="footer-nav-mobile__link">
+                        <i class="footer-nav-mobile__icon fas fa-user"></i>
+                        <span class="footer-nav-mobile__title">Tài khoản</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Button -->
+        <a title="Quay về đầu trang" href="#" class="go-to-top">
+            <i class="go-to-top__icon fas fa-chevron-up"></i>
+        </a>
+        <a title="Liên hệ" href="https://m.me/hohoa201202" target="_bank" class="go-to-chat">
+            <i class="go-to-chat__icon fab fa-facebook-messenger"></i>
+        </a>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="./assets/js/news__banner.js"></script> -->
+    <script>
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+
+        const event = (() => {
+            
+            return {
+                handleEvent() {
+                    // Search in mobile
+                    const mobileSearchBtn = $('.header-mobile-search');
+
+                    mobileSearchBtn.onclick = () => {
+                        $('.header-mobile-search-box__wrap').classList.toggle('active');
+                    };
+
+                    // Menu nav in mobile 
+                    const mobileMenuBtn = $('.header-mobile-menu');
+                    const overlayMobileScreen = $('.header-mobile-nav__overlay');
+                    const mobileNav = $('.header-mobile-nav');
+                    const mobileCloseNavBtn = $('.header-mobile-nav__close');
+
+                    function handleMobileNav() {
+                        overlayMobileScreen.classList.toggle('active');
+                        mobileNav.classList.toggle('active');
+                    };
+
+                    mobileMenuBtn.onclick = () => {
+                        handleMobileNav();
+                    };
+
+                    overlayMobileScreen.onclick = () => {
+                        handleMobileNav();
+                    };
+
+                    mobileCloseNavBtn.onclick = () => {
+                        handleMobileNav()
+                    };
+
+                    // Menu subnav in mobile 
+                    const mobileSubNavs = $$('.header-mobile-nav__item-select');
+                    
+                    Array.from(mobileSubNavs).forEach((mobileSubNav) => {
+                        mobileSubNav.onclick = () => {
+                            mobileSubNav.classList.toggle('active');
+                            mobileSubNav.firstElementChild.classList.toggle('active');
+                            if (mobileSubNav.nextElementSibling) {
+                                mobileSubNav.nextElementSibling.classList.toggle('active');
+                            };
+                        };
+                    });
+
+                    // Scroll Screen 
+                    const goToTopBtn = $('.go-to-top');
+                    document.onscroll = () => {
+                        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                        if (scrollTop > 120) {
+                            goToTopBtn.classList.add('active');
+                        } else {
+                            goToTopBtn.classList.remove('active');
+                        }
+                    };
+                },
+                init() {
+                    this.handleEvent();
+                }
+            }
+
+        })();
+
+        event.init();
+    </script>
+</body>
+</html>
